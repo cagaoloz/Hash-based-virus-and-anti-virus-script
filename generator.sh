@@ -3,7 +3,8 @@
 dir="/tmp/script1" 
 # Varsa hedef dizini silin0 
 rm -rf $dir 2>/dev/null 
-# Hedef dizini oluşturun mkdir $dir 
+# Hedef dizini oluşturun 
+mkdir $dir
 # 1'den 500000'e i olarak yineleyin 
 for i in $(seq 1 500000) 
 do     
