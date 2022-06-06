@@ -1,5 +1,6 @@
 #!/bin/bash 
-# Tanımlanacak hedef dizini, log dosyasını ve taranacak hedef dizin hash="d6ea69a5401ef7e5e953c0edaa16cd50" 
+# Tanımlanacak hedef dizini, log dosyasını ve taranacak hedef dizin 
+hash="d6ea69a5401ef7e5e953c0edaa16cd50" 
 log_file="/var/log/av.log" 
 target_dir="/tmp/script1" 
 # Log dosyasının mevcut olup olmadığını kontrol etme 
