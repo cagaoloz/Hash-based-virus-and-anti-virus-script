@@ -5,6 +5,8 @@ dir="/tmp/script1"
 rm -rf $dir 2>/dev/null 
 # Hedef dizini oluşturun mkdir $dir 
 # 1'den 500000'e i olarak yineleyin 
-for i in $(seq 1 500000) do     
-# İçinde 'i' değeri olan bir i.exe dosyası oluşturun 
-echo $i > $dir/"$i.exe" done
+for i in $(seq 1 500000) 
+do     
+  # İçinde 'i' değeri olan bir i.exe dosyası oluşturun 
+  echo $i > $dir/"$i.exe" 
+done
