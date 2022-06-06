@@ -25,7 +25,8 @@ if [[ "$result" == "" ]]
 then 
    # Ardından, virüsün algılanmadığını log kaydedin 
    echo "Virus not found, logs written to $log_file" 
-   echo "$(date +"%b %d %T") $(hostname) $(whoami) $hash \"No virus found\"" >> $log_file else 
+   echo "$(date +"%b %d %T") $(hostname) $(whoami) $hash \"No virus found\"" >> $log_file 
+   else 
    echo "Virus detected, logs written to $log_file" 
    echo "$(date +"%b %d %T") $(hostname) $(whoami) $hash $result" >> $log_file 
 fi 
