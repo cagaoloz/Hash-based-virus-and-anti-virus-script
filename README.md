@@ -1,7 +1,7 @@
 # Hash-based-virus-and-anti-virus-script
 Hash-based virus and anti-virus script 
 
-Bir adet virüs oluşturucu ve bir adet de virüs tespit edici uygulamalar bash scripting ile yazılacak. Scriptler eğitimde kurulan Ubuntu Linux VM üzerinde çalıştırılacaktır.
+Bir adet virüs oluşturucu ve bir adet de virüs tespit edici uygulamalar bash scripting ile yazılacak. Scriptler Ubuntu Linux VM üzerinde çalıştırılacaktır.
 
  Virüs tespiti hash değeri ile yapılacak.
 
